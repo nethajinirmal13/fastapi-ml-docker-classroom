@@ -1,0 +1,16 @@
+.git/
+.github/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.ipynb
+*.md
+model.joblib
+.env
+.env.*
+*.pem
+*.key
+docs/
+test_api.py
