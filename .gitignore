@@ -1,0 +1,17 @@
+# Python caches / testing
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local model output: image build generates a fresh trusted model
+model.joblib
+
+# Credentials / local configs
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
